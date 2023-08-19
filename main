@@ -1,0 +1,178 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+
+
+# https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+
+# Write your code below this line 👇
+input("Chapter 1: Welcome to Treasure Island. Press ENTER to continue.")
+input("Your mission is to find the 'Treasure'. Press ENTER to continue. ")
+input("You've just entered the local island gay bar, Fab's, to pursue some action."" Press ENTER to continue.")
+input("You spot two potential candidates to bring home. Press ENTER to continue.")
+input("Option One: A tall, dark skinned, native man with long hair. Press ENTER to continue.")
+input("Option Two: A muscular Australian tourist visiting the island on vacation. Press ENTER to continue.")
+input("Who do you approach? The Native man or the Australian tourist? Press ENTER to continue.")
+choice1 = input("Type '1' for the Native or Type '2' for the Australian: ")
+
+choice_one = choice1.lower()
+if choice_one == "1":
+    print('He drugs your drink while your back is turned and you black out. You wake up in a bath tub of ice in '
+          'terrible pain GAME OVER')
+    input('Ending One: Organ Donor')
+else:
+    input('After dancing the night away with this hunky tourist, he invites you back to his hotel. Press ENTER to '
+          'continue')
+
+    input("Do you stay at the bar or leave with the hot hunk? Press ENTER to continue")
+choice2 = input("Type '1' to stay or Type '2' to leave with the hot hunk: ")
+choice_two = choice2.lower()
+if choice_two == "1":
+    input("You didn't click with the hunk so you decided to stay. Press ENTER to continue")
+    input("The bartender, a ripped, massive piece of a man with long blonde hair down to his shoulders, "
+          "calls you over. Press ENTER to continue")
+    input("With a confident and strong voice, the gorgeous bartender yells; 'You look like you could use a drink' as "
+          "he slides a cocktail towards you with a smile. Press ENTER to continue")
+    input("As you sip the mixed beverage the beautiful bartender slid you, he looks directly with his deep blue eyes "
+          "and mentions of a friend of his is having a gathering down the street. Press ENTER to continue")
+    sub_choice_4 = input("Type '1' to go to the party. Type '2' to go back to your hotel: ")
+    if sub_choice_4 == "2":
+        print("You call it a night and went to sleep. GAME OVER")
+        input("Ending 3: Party Pooper.")
+    else:
+        input("Press ENTER to continue to The Party")
+
+
+
+else:
+    sub_choice_2 = input("You get back to the Australian hunks hotel. You both start getting undressed and notice he "
+                        "has an incredibly small penis. Do you stay? Type '1' for YES Type '2' for no: ")
+    if sub_choice_2 == "1":
+        print('The Australian hunk leaves you incredibly unsatisfied, GAME OVER.')
+        input("Ending 2: Can't get no satisfaction.")
+    else:
+        input("As you leave the hotel unfulfilled, you notice a house party across tbe street with a rainbow flag "
+              "draped over the second story balcony, waving majestically. Press ENTER to continue")
+        sub_choice_3 = input('Do you enter the house in hopes to turn this night around or head back to your hotel? '
+                             'Type "1" to enter the party or "2" to head back to your room: ')
+        if sub_choice_3 == "2":
+            print("You go back to your room, and go to sleep. GAME OVER")
+            input("Ending 3: Party Pooper.")
+        else:
+            input("Press ENTER to continue to The Party")
+
+input('Chapter 2: The Party. Press ENTER to continue')
+input("The inviting music has lead you through the front porch into a bustling environment of conversation and "
+      "adventure. Press ENTER to continue.")
+input("As you walk into the foyer, you notice many good looking men throughout. Amongst the noise, you pick out that "
+      "there's bickering upstairs, singing in the kitchen and, laughter in the living room. Press ENTER to continue")
+sub_choice_5 = input("Which direction calls you? Type '1' to go upstairs. Type '2' to enter the kitchen. Type '3' to walk into the living room: ")
+if sub_choice_5 == "1":
+    print("You walk upstairs to check on the commotion")
+    input("As you reach the second floor, you approach two distraught men. One seemed to be crying, the other visibly angry. Press ENTER to continue ")
+    input("The angry man storms off into the next room. Do you confront him or do you stay and console the crying man?")
+    sub_choice_6 = input("Type '1' to confront the angry man or Type '2' to console the crying man: ")
+    if sub_choice_6  == "1":
+        input("You chase the angry man and grab him by the shoulder inquiring what that was about. Press ENTER to continue")
+        print("Before you get a response he turns around swiftly and punches you hard in the face. GAME OVER")
+        input("Ending 4: Broken Pride. ")
+    else:
+        input("You go to console the crying man. Press ENTER to continue")
+        print("As you place your hand on the mans shoulder you hear 'Get your grubby hands off my man!'. As you turn "
+              "around the angry man punches you hard in the face. GAME OVER")
+        input("Ending 4: Broken Pride. ")
+if sub_choice_5 == "2":
+    input('You follow the muses tune to a lovely aroma coming from the kitchen. Press ENTER to continiue. ')
+    input('''You see a dashing, tall and well groomed gentlemen taking muffins out of the oven, which seems odd to be doing at a party, but you think nothing of it; not to mention he is only wearing an apron over a pair of 
+panties. The man looks to you with a smile and says, "want one handsome? Press ENTER to continue.''')
+    sub_choice_7 = input("Press '1' to take a muffin, press '2' to deny. ")
+    if sub_choice_7 == "2":
+        input("You choose to not take the muffin because you told the man that you're watching your figure. He "
+              "responds with, 'More for me!' Press ENTER to continue.")
+        print("As the party winds down, you found yourself alone and tired. You head back to your room at the hotel. "
+              "GAME OVER.")
+        input('Ending 5: Sour Dough')
+    else:
+        input("You oblige to take the mans offer. Press ENTER to continue.")
+        input("'Names Bruce', the man says with a cute little lisp, as you take a bite of his blueberry muffin. Press ENTER to continue. ")
+        input(" The muffin, warm and fresh out of the oven, was so soft and delicious. It reminded you of your "
+              "childhood. You could tell it was made with love and soul. Press ENTER to continue. ")
+        input("You tell Bruce how amazing his muffin is, and you both hit it off and talk for what seems like "
+              "eternity. Press ENTER to continue.")
+        input("During the conversation that seemed stuck in time, the music got louder as 'Believe, "
+              "by Cher' reverberates through the entire home. It might have been an illusion but it seemed like "
+              "someone turned the volume up. Press ENTER to continue")
+        input("Bruce shouted with joy, 'THIS IS MY FAVORITE SONG!', interally you agree, taking note in his taste in "
+              "music. Press ENTER to continue. ")
+        input("Bruce asks for you to dance in the living room. Press ENTER to continue.")
+        input("As Bruce reaches for your hand to bring you to the other side of the house, you feel a vibration from "
+              "your pocket. It's your phone. Press ENTER to continue.")
+        input("You take your phone out to see that your boss is calling you, Bruce looks at you concerned, "
+              "'Is everything okay?'. You state that your job is calling you and that it might be important. Bruce "
+              "smiles and says, 'It's okay sweetheart, have at it.' Press ENTER to continue.")
+        sub_choice_8 = input(' Press "1" to take the phone call, or press "2" to ignore your boss')
+        if sub_choice_8 == "1":
+            input("You smile at Bruce and say okay, and go outside to take the phone call. Press ENTER to continue")
+            input("You pick up the phone and the boss snags your ear for 20 minutes about an important conference you "
+                  "need to get to for an upcoming work related project. Press ENTER to continue.")
+            print("You head back inside and notice the many party goers are no longer there, and Cher is no longer "
+                  "playing. You search the home but Bruce cannot be found. You go back to the hotel to reflect. "
+                  "GAME OVER")
+            input("Game Ending 6: You didn't believe.")
+        else:
+            input("You decline the call, and insert your phone back into your pocket. You look up to Bruce with  "
+                  "smile, 'I'll worry about that when I'm back home. Press ENTER to continue.")
+            input('You and Bruce dance and laugh until the sun comes up. Press ENTER to continue.')
+            input("Now that the sun has risen, Bruce offers to have you come over for breakfast, and hot coffee. 'I "
+                  "make a mean omelet', he says with a gentle smirk. Press ENTER to continue.")
+            sub_choice_9 = input('Do you take him up on the offer knowing your flight leaves today. Type "1" for Yes '
+                                 'or '
+                                 '"2" for No:' )
+            if sub_choice_9 == "2":
+                print('You decline his offer for breakfast, give a big hug so you can make it to the airport on time. '
+                  'GAME OVER.')
+                input('Ending 7: Crash Landing')
+            else:
+                input("You both zoom back to his islamd estate in his Miata. Press ENTER to continue.")
+                input('You go into his lovely island home full of artworks of the world and extravagant decor. Bruce '
+                      'hands you a nice cup of coffee and said get comfortable, you are about to have the best '
+                      'omelet of your life. Press ENTER to continue.')
+                input('And it was... Press ENTER to continue')
+                input('You both talk hours and hours not realizing either of you have slept; but worse, you missed '
+                      'your '
+                      'flight. Press ENTER to continue')
+                input('Seemingly jokingly, Bruce asks; "What if you just quit your job and moved in with me? I could '
+                      'take care of you." Press ENTER to continue. ')
+                input('''You take a moment to think of your life back home and respond " You must be joking.", '
+                      'he replies "I'm being dead serious, I've been having such a great time with you and would hate for it to ever end." Press ENTER to continue''')
+                input("Stunned on the offer, you contemplate. Do you leave your mundane life on a "
+                                      "chance with fate or do you return home to your repetitive cycle")
+                sub_choice_10 = input( "Type '1' to stay with Bruce or Type '2' to fly back home")
+                if sub_choice_10 == "2":
+                    print("YOU LOSE GAME OVER")
+                    input("Ending 8: Homesick")
+                else:
+                    print("You chose love, 10 years have passed since moving in with Bruce. You both spend your time "
+                          "walking gay beach with your gay dog Richard Hamilton the cocker spaniel. I guess you do "
+                          "believe in life after love. You found the treasure within Bruce  ")
+                    input("Ending 10: You really were strong enough")
+
